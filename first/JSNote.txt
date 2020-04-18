@@ -1,0 +1,2 @@
+**If we can use "`" sing for the quote than initialize the value of the variable
+	Example  =>  `${currentResult}( + currentResult + 10)`;

@@ -1,0 +1,22 @@
+{
+  "name": "chatcat",
+  "version": "1.0.0",
+  "description": "This application is used for chat.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Brij",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "connect-mongo": "^3.2.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "jshint": "^2.11.0",
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.7"
+  }
+}
