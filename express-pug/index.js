@@ -19,7 +19,7 @@ app.get('/',(req, res, next)=>{
 
 app.post('/',(req, res, next)=>{
 
-	res.render('show',{title:"User Detail", h1:"Hello Brij", uname:req.body.uname, pass:req.body.pss});
+	res.render('show',{title:"User Detail", h1:"Hello Brij", uname:req.body.uname, pass:req.body.pass});
 });
 
 app.get('/sum/:a-:b',(req, res)=>{
